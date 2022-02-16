@@ -1,0 +1,108 @@
+
+
+body {
+	background: hsl(0, 0%, 95%);
+	font-size: 1rem;
+	display: flex;
+	font-family: 'Lexend Deca', sans-serif;
+	color: hsla(0, 0%, 100%, 0.75);
+	line-height: 1.5rem;
+}
+
+h1 {
+	font-family: 'Big Shoulders Display', cursive;
+	color: hsl(0, 0%, 95%);
+	text-transform: uppercase;
+	padding: 2rem 0 1.5rem;
+	font-weight: 600;
+}
+
+button {
+	margin: 4.5rem 0 1rem;
+	background: hsl(0, 0%, 95%);
+	height: 3rem;
+	border-radius: 25px;
+	width: 9rem;
+	border: none;
+}
+ 
+
+.box {
+	margin: 9% 16%;
+	border-radius: 1rem;
+}
+
+.card {
+	border-radius: 0;
+	padding: 3rem;
+}
+
+.icon {
+	width: 30%;
+}
+
+.sedans {
+	background: hsl(31, 77%, 52%);
+	border-radius: 0.6rem 0 0 0.6rem;
+}
+
+.sedans button{
+	color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+	background: hsl(184, 100%, 22%);
+}
+
+.suvs button {
+	color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+	background: hsl(179, 100%, 13%);
+	border-radius: 0 0.6rem 0.6rem 0;
+}
+
+.luxury button {
+	color: hsl(179, 100%, 13%);
+}
+
+button:hover {
+ 	background: transparent;
+ 	border-color: hsl(0, 0%, 95%);
+ 	border-width: 2px;
+ 	border-style: solid;
+ 	color: hsl(0, 0%, 95%);
+ }
+
+
+
+
+@media (max-width: 896px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box {
+        width: 90%;
+        height:100%;
+    }
+
+    p, a{
+        font-size: 1rem;
+    }
+
+    h1{
+        font-size: 4rem;
+    }
+
+    .sedans{
+        border-radius: 0.6rem 0.6rem 0 0 ;
+    }
+
+    .luxury{
+        border-radius: 0 0 0.6rem 0.6rem;
+    }
+}
